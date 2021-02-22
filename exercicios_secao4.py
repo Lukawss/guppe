@@ -1,7 +1,4 @@
-lista = [1, 2, 3, 4]
+import log
 
-print([x * 10 for x in lista ])
+var = 'Queiroz'
 
-nome = lambda nome, sobrenome: nome.strip().title() + ' ' + sobrenome.strip().title()
-
-print(nome('LUCAS','DE S. QUEIROZ'))
