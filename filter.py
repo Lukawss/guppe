@@ -67,7 +67,7 @@ nomes = ['Vanessa', 'Ana', 'Maria']
 
 # Devemos criar uma lista contendo 'Sua instrutora é' + nome, desde que cada nome tenha menos que 5 caracteres.
 
-lista = list(map(lambda nome: f'Sua instrutora é {nome}', filter(lambda nome: len(nome) < 5, nomes)))
+lista = list(map(lambda nome: f'Sua instrutora é {nome}', filter(lambda nome: len(nome) > 3, nomes)))
 
 print(lista)
 
