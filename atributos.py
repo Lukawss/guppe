@@ -10,7 +10,7 @@ nos conseguimos representar computacionalmente os estados de um objeto.
 Em Python, dividimos os atributos em 3 grupos:
 -Atributos de Instância;
 -Atributos de Classe;
-- Atributos Dinêmico;
+- Atributos Dinâmico;
 
 # Atributos de instância: São atributs declarados dentro do mêtodo construtor.
 
